@@ -18,3 +18,5 @@ echo "ASTRA_DB_TOKEN=0" >> ~/.astrarc
 echo "ASTRA_DB_TOKEN_TIME=0" >> ~/.astrarc
 echo "ASTRA_DB_PASSWORD=$password" >> .env
 echo "GAMES_COLLECTION=games" >> .env
+echo "NODE_OPTIONS=--openssl-legacy-provider" >> .env
+
